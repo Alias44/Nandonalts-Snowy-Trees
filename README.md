@@ -8,7 +8,7 @@ Click on the Clone or download button.
 Click Download ZIP
 Open the zip file
 Go to your RimWorld install folder (by windows default its C:\Program Files (x86)\Steam\steamapps\common\RimWorld) and open the "Mods" folder.
-Copy the folder from the zip file to the Mods folder (DO NOT put it inside Core)
+Copy the folder from the zip file to the Mods folder (**DO NOT** put it inside Core)
 After that run Rimworld and "Snowy Trees" will show up in your mod list with a little folder icon next to it.
 From there it should be just like any other workshop item
 
