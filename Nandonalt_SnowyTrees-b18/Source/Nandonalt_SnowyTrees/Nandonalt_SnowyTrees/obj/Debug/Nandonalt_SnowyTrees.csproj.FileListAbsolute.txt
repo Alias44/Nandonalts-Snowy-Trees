@@ -1,0 +1,8 @@
+D:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Nandonalt - Snowy Trees\Source\Nandonalt_SnowyTrees\Nandonalt_SnowyTrees\bin\Debug\Nandonalt_SnowyTrees.dll
+D:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Nandonalt - Snowy Trees\Source\Nandonalt_SnowyTrees\Nandonalt_SnowyTrees\obj\Debug\Nandonalt_SnowyTrees.csprojResolveAssemblyReference.cache
+D:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Nandonalt - Snowy Trees\Source\Nandonalt_SnowyTrees\Nandonalt_SnowyTrees\obj\Debug\Nandonalt_SnowyTrees.dll
+D:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Nandonalt - Snowy Trees\Assemblies\Nandonalt_SnowyTrees.dll
+C:\Program Files (x86)\Games\Steam\steamapps\common\RimWorld\Mods\Nandonalt - Snowy Trees\Assemblies\Nandonalt_SnowyTrees.dll
+C:\Program Files (x86)\Games\Steam\steamapps\common\RimWorld\Mods\Nandonalt - Snowy Trees\Source\Nandonalt_SnowyTrees\Nandonalt_SnowyTrees\obj\Debug\Nandonalt_SnowyTrees.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Games\Steam\steamapps\common\RimWorld\Mods\Nandonalt - Snowy Trees\Source\Nandonalt_SnowyTrees\Nandonalt_SnowyTrees\obj\Debug\Nandonalt_SnowyTrees.dll
+C:\Program Files (x86)\Games\Steam\steamapps\common\RimWorld\Mods\Nandonalt - Snowy Trees\Source\Nandonalt_SnowyTrees\Nandonalt_SnowyTrees\obj\Debug\Nandonalt_SnowyTrees.csprojResolveAssemblyReference.cache
