@@ -1,5 +1,5 @@
 # B18-Snowy-Trees
-Nandonalt's Snowy Trees updated to b18 Sourced from steam
+Nandonalt's Snowy Trees updated to b18 Sourced from Tejko on the Ludeon Forums
 
 ## Installation Instructions
 
@@ -21,7 +21,13 @@ Enter the command git clone https://github.com/Alias44/B18-Snowy-Trees.git
 Note: You can get future changes by using the command get pull origin master
 
 ## Changes
-Removed HugsLib dependence
+v0.19
+Refactored the tree swap code, not that it was an issue, but by making fewer string comparisons it runs faster now.
+Added snow graphics for the leafless versions of: Birch, Cypress, Maple, Oak, Poplar, and Willow Trees.
+Added snow graphics for Agave and Willow Tree.
+
+0.18.0t
+Removed HugsLib dependence.
 
 ## Licensing
 Unsure of licensing info, as Nandonalt didn't originally publish anything in that respect. All credit goes to Tejko for updating to a17/Harmony, all I did was delete a line or two and recompile to achieve b18 compatibility.
