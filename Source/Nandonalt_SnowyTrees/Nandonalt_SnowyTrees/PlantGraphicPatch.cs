@@ -34,34 +34,37 @@ namespace Nandonalt_SnowyTrees
 
 					int plantIndex = PlantGraphicSupportDefinitions.plantList.BinarySearch(__instance.def.defName);
 
-					// If the tree 
-					if (__instance.LeaflessNow)
+					if (0 <= plantIndex && plantIndex < PlantGraphicSupportDefinitions.plantList.Count) 
 					{
-						// and supporting leafless graphic
-						// (nested if prevents Jesus trees: leafless trees getting the wrong graphic because a leafless snowy texture doesn't exist):
-						if (PlantGraphicSupportDefinitions.LeaflessSnowyPlants[plantIndex] == true)
+						// If the tree 
+						if (__instance.LeaflessNow)
 						{
-							newPath = parentDef.graphicData.texPath.Replace("Things/Plant/", "Things/Plant_Snowy_Leafless/");
+							// and supporting leafless graphic
+							// (nested if prevents Jesus trees: leafless trees getting the wrong graphic because a leafless snowy texture doesn't exist):
+							if (PlantGraphicSupportDefinitions.LeaflessSnowyPlants[plantIndex] == true)
+							{
+								newPath = parentDef.graphicData.texPath.Replace("Things/Plant/", "Things/Plant_Snowy_Leafless/");
+							}
 						}
-					}
-					// else, if immature variant and supported:
-					else if (__result.path.ToLowerInvariant().Contains("immature")
-						&& PlantGraphicSupportDefinitions.ImmatureSnowyPlants[plantIndex] == true)
-					{
-						newPath = parentDef.graphicData.texPath.Replace("Things/Plant/", "Things/Plant_Snowy_Immature/");
-					}
-					// Otherwise we show the snowy default / mature variant if it is supported.
-					else if (PlantGraphicSupportDefinitions.SnowyPlants[plantIndex] == true)
-					{
-						newPath = parentDef.graphicData.texPath.Replace("Things/Plant/", "Things/Plant_Snowy/");
-					}
+						// else, if immature variant and supported:
+						else if (__result.path.ToLowerInvariant().Contains("immature")
+							&& PlantGraphicSupportDefinitions.ImmatureSnowyPlants[plantIndex] == true)
+						{
+							newPath = parentDef.graphicData.texPath.Replace("Things/Plant/", "Things/Plant_Snowy_Immature/");
+						}
+						// Otherwise we show the snowy default / mature variant if it is supported.
+						else if (PlantGraphicSupportDefinitions.SnowyPlants[plantIndex] == true)
+						{
+							newPath = parentDef.graphicData.texPath.Replace("Things/Plant/", "Things/Plant_Snowy/");
+						}
 
-					//If the texture has something to replace
-					if (newPath != null)
-					{
-						snowyGraphic = GraphicDatabase.Get<Graphic_Random>(newPath, __result.Shader, __result.drawSize, __result.Color, __result.ColorTwo, __result.data);
+						//If the texture has something to replace
+						if (newPath != null)
+						{
+							snowyGraphic = GraphicDatabase.Get<Graphic_Random>(newPath, __result.Shader, __result.drawSize, __result.Color, __result.ColorTwo, __result.data);
 
-						__result = snowyGraphic;
+							__result = snowyGraphic;
+						}
 					}
 				}
 			}

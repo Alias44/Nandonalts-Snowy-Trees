@@ -1,14 +1,13 @@
 # B18-Snowy-Trees
-Nandonalt's Snowy Trees updated to b18 Sourced from Tejko on the Ludeon Forums
+Nandonalt's Snowy Trees updated to b18 Sourced from Tejko a17 update on the Ludeon Forums
 
 ## Installation Instructions
 
 ### To install a non-workshop RimWorld mod from zip download:
 Click on the Clone or download button.
 Click Download ZIP
-Open the zip file
-Go to your RimWorld install folder (by windows default its C:\Program Files (x86)\Steam\steamapps\common\RimWorld) and open the "Mods" folder.
-Copy the folder from the zip file to the Mods folder (**DO NOT** put it inside Core)
+Extract the zip to your RimWorld install folder (by windows default it's C:\Program Files (x86)\Steam\steamapps\common\RimWorld) and open the "Mods" folder.
+
 After that run Rimworld and "Snowy Trees" will show up in your mod list with a little folder icon next to it.
 From there it should be just like any other workshop item
 
@@ -21,6 +20,9 @@ Enter the command git clone https://github.com/Alias44/B18-Snowy-Trees.git
 Note: You can get future changes by using the command get pull origin master
 
 ## Changes
+v0.19.1
+Fixed bug that caused errors when plants added by other mods got snowed on.
+
 v0.19
 Refactored the tree swap code, not that it was an issue, but by making fewer string comparisons it runs faster now.
 Added snow graphics for the leafless versions of: Birch, Cypress, Maple, Oak, Poplar, and Willow Trees.
