@@ -1,5 +1,5 @@
 # B18-Snowy-Trees
-Nandonalt's Snowy Trees updated to b18 Sourced from Tejko a17 update on the Ludeon Forums
+Nandonalt's Snowy Trees updated to b18 Sourced from Tejko's a17 update on the Ludeon Forums
 
 ## Installation Instructions
 
