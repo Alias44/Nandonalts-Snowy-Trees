@@ -20,6 +20,9 @@ Enter the command git clone https://github.com/Alias44/B18-Snowy-Trees.git
 Note: You can get future changes by using the command get pull origin master
 
 ## Changes
+v0.19.2
+Fixed bug that caused plants in the leafless state but have no leafless sprite to not swap the regular sprite when snowed on.
+
 v0.19.1
 Fixed bug that caused errors when plants added by other mods got snowed on.
 
