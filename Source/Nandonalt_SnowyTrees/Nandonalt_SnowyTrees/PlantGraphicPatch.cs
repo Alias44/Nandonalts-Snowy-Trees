@@ -36,10 +36,9 @@ namespace Nandonalt_SnowyTrees
 
 					if (0 <= plantIndex && plantIndex < PlantGraphicSupportDefinitions.plantList.Count) 
 					{
-						// If the tree 
-						if (__instance.LeaflessNow)
+						// If the tree is currently leafless and a leafless graphic exists
+						if (__instance.LeaflessNow && __instance.def.plant.leaflessGraphic != null)
 						{
-							// and supporting leafless graphic
 							// (nested if prevents Jesus trees: leafless trees getting the wrong graphic because a leafless snowy texture doesn't exist):
 							if (PlantGraphicSupportDefinitions.LeaflessSnowyPlants[plantIndex] == true)
 							{
