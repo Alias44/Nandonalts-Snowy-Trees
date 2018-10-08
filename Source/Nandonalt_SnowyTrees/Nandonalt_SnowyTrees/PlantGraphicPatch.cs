@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Reflection;
+using System.Collections.Generic;
 using Harmony;
 using RimWorld;
 using Verse;
@@ -28,33 +29,33 @@ namespace Nandonalt_SnowyTrees
 				// If there is snow in the ground, switch graphic to snowy variant:
 				if (__instance.Map.snowGrid.GetDepth(__instance.Position) >= 0.5f)
 				{
-					ThingDef parentDef = __instance.def;
 					string newPath = null;
 					Graphic snowyGraphic;
 
-					int plantIndex = PlantGraphicSupportDefinitions.plantList.BinarySearch(__instance.def.defName);
+					SnowyPlantDef candidatePlant = DefDatabase<SnowyPlantDef>.GetNamed(__instance.def.defName, false);
 
-					if (0 <= plantIndex && plantIndex < PlantGraphicSupportDefinitions.plantList.Count) 
+					if (candidatePlant != null)
 					{
 						// If the tree is currently leafless and a leafless graphic exists
 						if (__instance.LeaflessNow && __instance.def.plant.leaflessGraphic != null)
 						{
 							// (nested if prevents Jesus trees: leafless trees getting the wrong graphic because a leafless snowy texture doesn't exist):
-							if (PlantGraphicSupportDefinitions.LeaflessSnowyPlants[plantIndex] == true)
+							if (candidatePlant.LeaflessSnowyPath != null)
 							{
-								newPath = parentDef.graphicData.texPath.Replace("Things/Plant/", "Things/Plant_Snowy_Leafless/");
+								
+								newPath = candidatePlant.LeaflessSnowyPath;
 							}
 						}
 						// else, if immature variant and supported:
 						else if (__result.path.ToLowerInvariant().Contains("immature")
-							&& PlantGraphicSupportDefinitions.ImmatureSnowyPlants[plantIndex] == true)
+							&& (candidatePlant.ImmatureSnowyPath != null))
 						{
-							newPath = parentDef.graphicData.texPath.Replace("Things/Plant/", "Things/Plant_Snowy_Immature/");
+							newPath = candidatePlant.ImmatureSnowyPath;
 						}
 						// Otherwise we show the snowy default / mature variant if it is supported.
-						else if (PlantGraphicSupportDefinitions.SnowyPlants[plantIndex] == true)
+						else if (candidatePlant.RegularSnowyPath != null)
 						{
-							newPath = parentDef.graphicData.texPath.Replace("Things/Plant/", "Things/Plant_Snowy/");
+							newPath = candidatePlant.RegularSnowyPath;
 						}
 
 						//If the texture has something to replace
@@ -68,42 +69,5 @@ namespace Nandonalt_SnowyTrees
 				}
 			}
 		}
-
-		#region A16: HugsLib detour:
-		/*using HugsLib.Source.Detour;
-
-		[StaticConstructorOnStartup]
-		public class PlantTree : Plant
-		{
-			private static Graphic GraphicSowing = GraphicDatabase.Get<Graphic_Single>("Things/Plant/Plant_Sowing", ShaderDatabase.Cutout, Vector2.one, Color.white);
-
-			[DetourProperty(typeof(Plant), "Graphic", DetourProperty.Getter)]
-			public override Graphic Graphic
-			{
-				get
-				{
-					if (this.LifeStage == PlantLifeStage.Sowing)
-					{
-						return GraphicSowing;
-					}
-					if (this.def.plant.leaflessGraphic != null && this.LeaflessNow)
-					{
-						return this.def.plant.leaflessGraphic;
-					}
-					if (TreeInjector.alteredPlants.Contains(this.def.defName))
-						{
-						if (this.Map.snowGrid.GetDepth(this.Position) >= 0.5f)
-						{
-							ThingDef parentDef = this.def;
-							Graphic Snowy = GraphicDatabase.Get(parentDef.graphicData.graphicClass, parentDef.graphicData.texPath + "_Snowy", parentDef.graphic.Shader, parentDef.graphicData.drawSize, parentDef.graphicData.color, parentDef.graphicData.colorTwo);
-							return Snowy;
-						}
-					}
-					return this.def.graphicData.GraphicColoredFor(this);
-				}
-			}
-		}*/
-		#endregion
 	}
 }
-

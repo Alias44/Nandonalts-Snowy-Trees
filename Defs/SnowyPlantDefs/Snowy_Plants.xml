@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<Nandonalt_SnowyTrees.SnowyPlantDef>
+		<defName>Plant_Agave</defName>
+		<regularSnowyPath>Things/SnowyPlant/Agave_Snowy</regularSnowyPath>
+	</Nandonalt_SnowyTrees.SnowyPlantDef>
+	
+	<Nandonalt_SnowyTrees.SnowyPlantDef>
+		<defName>Plant_Berry</defName>
+		<immatureSnowyPath>Things/SnowyPlant/BerryPlant_Immature_Snowy</immatureSnowyPath>
+		<regularSnowyPath>Things/SnowyPlant/BerryPlant_Snowy</regularSnowyPath>
+	</Nandonalt_SnowyTrees.SnowyPlantDef>
+	
+	<Nandonalt_SnowyTrees.SnowyPlantDef>
+		<defName>Plant_Bush</defName>
+		<leaflessSnowyPath>Things/SnowyPlant/Bush_Leafless_Snowy</leaflessSnowyPath>
+		<regularSnowyPath>Things/SnowyPlant/Bush_Snowy</regularSnowyPath>
+	</Nandonalt_SnowyTrees.SnowyPlantDef>
+</Defs>

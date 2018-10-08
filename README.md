@@ -20,22 +20,28 @@ Enter the command git clone https://github.com/Alias44/B18-Snowy-Trees.git
 Note: You can get future changes by using the command get pull origin master
 
 ## Changes
+v0.20.0
+* b19 support
+* Snowy definitions are now XML based- this means that Snowy Trees can now be used as a platform to snow-ify plants and trees from other mods
+
 v0.19.2
-Fixed bug that caused plants in the leafless state but have no leafless sprite to not swap the regular sprite when snowed on.
+* Fixed bug that caused plants in the leafless state but have no leafless sprite to not swap the regular sprite when snowed on.
 
 v0.19.1
-Fixed bug that caused errors when plants added by other mods got snowed on.
+* Fixed bug that caused errors when plants added by other mods got snowed on.
 
-v0.19
-Refactored the tree swap code, not that it was an issue, but by making fewer string comparisons it runs faster now.
-Added snow graphics for the leafless versions of: Birch, Cypress, Maple, Oak, Poplar, and Willow Trees.
-Added snow graphics for Agave and Willow Tree.
+v0.19.0
+* Refactored the tree swap code, not that it was an issue, but by making fewer string comparisons it runs faster now.
+* Added snow graphics for the leafless versions of: Birch, Cypress, Maple, Oak, Poplar, and Willow Trees.
+* Added snow graphics for Agave and Willow Tree.
 
 0.18.0t
-Removed HugsLib dependence.
+* Removed HugsLib dependence.
 
 ## Licensing
-Unsure of licensing info, as Nandonalt didn't originally publish anything in that respect. All credit goes to Tejko for updating to a17/Harmony, all I did was delete a line or two and recompile to achieve b18 compatibility.
-
+Unsure of licensing info, as Nandonalt didn't originally publish anything in that respect. All credit goes to Tejko for a17/Harmony updated.
+ 
 ## Thanks
-to [Nandonalt](https://ludeon.com/forums/index.php?action=profile;u=58544) for making the mod, [Tejko](https://ludeon.com/forums/index.php?action=profile;u=67219) for updating it to a17/Harmony
+* to [Nandonalt](https://ludeon.com/forums/index.php?action=profile;u=58544) for making the mod
+* to [Tejko](https://ludeon.com/forums/index.php?action=profile;u=67219) for updating it to a17/Harmony
+* to all the wonderful people on the Rimworld Discord

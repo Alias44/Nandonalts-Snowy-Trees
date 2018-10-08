@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<Nandonalt_SnowyTrees.SnowyPlantDef>
+		<defName>Plant_TreeBirch</defName>
+		<leaflessSnowyPath>Things/SnowyPlant/TreeBirch_Leafless_Snowy</leaflessSnowyPath>
+		<regularSnowyPath>Things/SnowyPlant/TreeBirch_Snowy</regularSnowyPath>
+	</Nandonalt_SnowyTrees.SnowyPlantDef>
+	
+	<Nandonalt_SnowyTrees.SnowyPlantDef>
+		<defName>Plant_TreeCecropia</defName>
+		<leaflessSnowyPath>Things/SnowyPlant/TreeCecropia_Leafless_Snowy</leaflessSnowyPath>
+		<regularSnowyPath>Things/SnowyPlant/TreeCecropia_Snowy</regularSnowyPath>
+	</Nandonalt_SnowyTrees.SnowyPlantDef>
+	
+	<Nandonalt_SnowyTrees.SnowyPlantDef>
+		<defName>Plant_TreeCypress</defName>
+		<leaflessSnowyPath>Things/SnowyPlant/TreeCypress_Leafless_Snowy</leaflessSnowyPath>
+	</Nandonalt_SnowyTrees.SnowyPlantDef>
+	
+	<Nandonalt_SnowyTrees.SnowyPlantDef>
+		<defName>Plant_TreeMaple</defName>
+		<regularSnowyPath>Things/SnowyPlant/TreeMaple_Snowy</regularSnowyPath>
+	</Nandonalt_SnowyTrees.SnowyPlantDef>
+	
+	<Nandonalt_SnowyTrees.SnowyPlantDef>
+		<defName>Plant_TreeOak</defName>
+		<leaflessSnowyPath>Things/SnowyPlant/TreeOak_Leafless_Snowy</leaflessSnowyPath>
+		<regularSnowyPath>Things/SnowyPlant/TreeOak_Snowy</regularSnowyPath>
+	</Nandonalt_SnowyTrees.SnowyPlantDef>
+	
+	<Nandonalt_SnowyTrees.SnowyPlantDef>
+		<defName>Plant_TreePine</defName>
+		<regularSnowyPath>Things/SnowyPlant/TreePine_Snowy</regularSnowyPath>
+	</Nandonalt_SnowyTrees.SnowyPlantDef>
+	
+	<Nandonalt_SnowyTrees.SnowyPlantDef>
+		<defName>Plant_TreePoplar</defName>
+		<leaflessSnowyPath>Things/SnowyPlant/TreePoplar_Leafless_Snowy</leaflessSnowyPath>
+		<regularSnowyPath>Things/SnowyPlant/TreePoplar_Snowy</regularSnowyPath>
+	</Nandonalt_SnowyTrees.SnowyPlantDef>
+	
+	<Nandonalt_SnowyTrees.SnowyPlantDef>
+		<defName>Plant_TreeTeak</defName>
+		<regularSnowyPath>Things/SnowyPlant/TreeTeak_Snowy</regularSnowyPath>
+	</Nandonalt_SnowyTrees.SnowyPlantDef>
+	
+	<Nandonalt_SnowyTrees.SnowyPlantDef>
+		<defName>Plant_TreeWillow</defName>
+		<leaflessSnowyPath>Things/SnowyPlant/TreeWillow_Leafless_Snowy</leaflessSnowyPath>
+		<regularSnowyPath>Things/SnowyPlant/TreeWillow_Snowy</regularSnowyPath>
+	</Nandonalt_SnowyTrees.SnowyPlantDef>
+</Defs>
