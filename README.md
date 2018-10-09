@@ -20,6 +20,9 @@ Enter the command git clone https://github.com/Alias44/B18-Snowy-Trees.git
 Note: You can get future changes by using the command get pull origin master
 
 ## Changes
+v0.20.1
+* Fixed typo in Maple tree definition causing errors
+
 v0.20.0
 * b19 support
 * Snowy definitions are now XML based- this means that Snowy Trees can now be used as a platform to snow-ify plants and trees from other mods

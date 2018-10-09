@@ -19,7 +19,7 @@
 	
 	<Nandonalt_SnowyTrees.SnowyPlantDef>
 		<defName>Plant_TreeMaple</defName>
-		<regularSnowyPath>Things/SnowyPlant/TreeMaple_Snowy</regularSnowyPath>
+		<leaflessSnowyPath>Things/SnowyPlant/TreeMaple_Leafless_Snowy</leaflessSnowyPath>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 	
 	<Nandonalt_SnowyTrees.SnowyPlantDef>
