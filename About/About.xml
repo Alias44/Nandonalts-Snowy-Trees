@@ -7,10 +7,11 @@
 
     <url>https://ludeon.com/forums/index.php?topic=29221.msg294779#msg294779</url>
 
-	<targetVersion>0.19.2009</targetVersion>
+    <targetVersion>1.0.2059</targetVersion>
 
-    <description>Snowy Trees mod v0.20.0 - Makes plants snowy when they are covered by snow.
+    <description>Snowy Trees mod v0.21.0 - Makes plants snowy when they are covered by snow.
 Changelog:
+v21.0- v1.0 support
 v20.1- Fixed typo in Maple tree definition causing errors
 v20.0- b19 support, swap definitions are now XML based.
 v19.2- Fixed bug that caused plants in the leafless state but have no leafless sprite to not swap the regular sprite when snowed on.

@@ -20,6 +20,9 @@ Enter the command git clone https://github.com/Alias44/B18-Snowy-Trees.git
 Note: You can get future changes by using the command get pull origin master
 
 ## Changes
+v0.21.0
+* v1.0 support
+
 v0.20.1
 * Fixed typo in Maple tree definition causing errors
 
