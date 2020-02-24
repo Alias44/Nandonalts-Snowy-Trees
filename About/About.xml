@@ -3,14 +3,20 @@
 
     <name>Snowy Trees</name>
 
-    <author>Nandonalt, updated by Tejko, Alias</author>
+    <author>Nandonalt, Tejko, Alias</author>
 
     <url>https://ludeon.com/forums/index.php?topic=29221.msg294779#msg294779</url>
 
-    <targetVersion>1.0.2059</targetVersion>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+	</supportedVersions>
+	
+	<packageId>Nandonalt.SnowyTrees</packageId>
 
     <description>Snowy Trees mod v0.21.0 - Makes plants snowy when they are covered by snow.
 Changelog:
+v21.1- v1.1 support, begin backwards mod support starting with v1.0
 v21.0- v1.0 support
 v20.1- Fixed typo in Maple tree definition causing errors
 v20.0- b19 support, swap definitions are now XML based.

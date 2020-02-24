@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 using System.Collections.Generic;
-using Harmony;
+using HarmonyLib;
 using RimWorld;
 using Verse;
 
@@ -15,7 +15,7 @@ namespace Nandonalt_SnowyTrees
 
 		static HarmonyPatches ()
 		{
-			HarmonyInstance harmony = HarmonyInstance.Create("Nandonalt_SnowyTrees.main");
+			var harmony = new Harmony("Nandonalt_SnowyTrees.main");
 			harmony.Patch(AccessTools.Method(typeof(Plant), "get_Graphic"), null, new HarmonyMethod(patchType, nameof(SnowyGraphic)));
 
 			harmony.PatchAll(Assembly.GetExecutingAssembly());
@@ -42,7 +42,6 @@ namespace Nandonalt_SnowyTrees
 							// (nested if prevents Jesus trees: leafless trees getting the wrong graphic because a leafless snowy texture doesn't exist):
 							if (candidatePlant.LeaflessSnowyPath != null)
 							{
-								
 								newPath = candidatePlant.LeaflessSnowyPath;
 							}
 						}

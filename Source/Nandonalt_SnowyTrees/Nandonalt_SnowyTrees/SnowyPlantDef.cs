@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Nandonalt_SnowyTrees
 {
-    public class SnowyPlantDef : Def
+	public class SnowyPlantDef : Def
 	{
 		private string leaflessSnowyPath = null;
 		private string immatureSnowyPath = null;

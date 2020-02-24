@@ -20,6 +20,10 @@ Enter the command git clone https://github.com/Alias44/B18-Snowy-Trees.git
 Note: You can get future changes by using the command get pull origin master
 
 ## Changes
+v0.21.1
+* v1.1 support
+* begin backwards mod support starting with v1.0
+
 v0.21.0
 * v1.0 support
 
