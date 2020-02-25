@@ -14,8 +14,9 @@
 	
 	<packageId>Nandonalt.SnowyTrees</packageId>
 
-    <description>Snowy Trees mod v0.21.0 - Makes plants snowy when they are covered by snow.
+    <description>Snowy Trees mod v0.21.2 - Makes plants snowy when they are covered by snow.
 Changelog:
+v21.2- Hotfix: 1.0 support
 v21.1- v1.1 support, begin backwards mod support starting with v1.0
 v21.0- v1.0 support
 v20.1- Fixed typo in Maple tree definition causing errors
