@@ -20,12 +20,14 @@ Enter the command git clone https://github.com/Alias44/B18-Snowy-Trees.git
 Note: You can get future changes by using the command get pull origin master
 
 ## Changes
+v21.3
+* Harmony update (2.0.0.8)
+
 v21.2
 * Hotfix: 1.0 support fixed
 
 v0.21.1
-* v1.1 support
-* begin backwards mod support starting with v1.0
+* 1.1 update with 1.0 backwards compatibility
 
 v0.21.0
 * v1.0 support
