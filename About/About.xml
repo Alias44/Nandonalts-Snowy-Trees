@@ -14,9 +14,17 @@
 	
 	<packageId>Nandonalt.SnowyTrees</packageId>
 
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>Ludeon.RimWorld</li>
+	</loadAfter>
+
     <description>Snowy Trees mod v0.21.2 - Makes plants snowy when they are covered by snow.
+	 
+&lt;color=red&gt;This mod uses Harmony, it comes with its own copy (v2.0.0.8), however it it recommended that you subscribe and activate the official Harmony mod by Brrainz so that you always have the latest version.&lt;/color&gt;
 Changelog:
-v21.2- Hotfix: 1.0 support
+
+v21.2- Fixed 1.0 not working
 v21.1- v1.1 support, begin backwards mod support starting with v1.0
 v21.0- v1.0 support
 v20.1- Fixed typo in Maple tree definition causing errors
