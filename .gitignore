@@ -1,6 +1,3 @@
-#Ignore Photoshop source documents
-TexturesSource/
-
 Assemblies/UnityEngine.dll
 
 ## Ignore Visual Studio temporary files, build results, and
