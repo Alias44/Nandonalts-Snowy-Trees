@@ -20,10 +20,15 @@ Enter the command git clone https://github.com/Alias44/B18-Snowy-Trees.git
 Note: You can get future changes by using the command get pull origin master
 
 ## Changes
-v21.3
+v1.22.4
+* 1.2 update
+* Harmony update (v2.0.2)
+* Added snow graphics for Brambles and Chokevine (both leafless and regular)
+
+v0.21.3
 * Harmony update (2.0.0.8)
 
-v21.2
+v0.21.2
 * Hotfix: 1.0 support fixed
 
 v0.21.1

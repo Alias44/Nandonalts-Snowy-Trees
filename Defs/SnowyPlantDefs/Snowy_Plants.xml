@@ -11,9 +11,23 @@
 		<regularSnowyPath>Things/SnowyPlant/BerryPlant_Snowy</regularSnowyPath>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 	
+	
+	<Nandonalt_SnowyTrees.SnowyPlantDef>
+		<defName>Plant_Brambles</defName>
+		<leaflessSnowyPath>Things/SnowyPlant/Brambles_Leafless_Snowy</leaflessSnowyPath>
+		<regularSnowyPath>Things/SnowyPlant/Brambles_Snowy</regularSnowyPath>
+	</Nandonalt_SnowyTrees.SnowyPlantDef>
+	
+	
 	<Nandonalt_SnowyTrees.SnowyPlantDef>
 		<defName>Plant_Bush</defName>
 		<leaflessSnowyPath>Things/SnowyPlant/Bush_Leafless_Snowy</leaflessSnowyPath>
 		<regularSnowyPath>Things/SnowyPlant/Bush_Snowy</regularSnowyPath>
+	</Nandonalt_SnowyTrees.SnowyPlantDef>
+	
+	<Nandonalt_SnowyTrees.SnowyPlantDef>
+		<defName>Plant_Chokevine</defName>
+		<leaflessSnowyPath>Things/SnowyPlant/Chokevine_Leafless_Snowy</leaflessSnowyPath>
+		<regularSnowyPath>Things/SnowyPlant/Chokevine_Snowy</regularSnowyPath>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 </Defs>

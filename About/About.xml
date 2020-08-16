@@ -10,6 +10,7 @@
 	<supportedVersions>
 		<li>1.0</li>
 		<li>1.1</li>
+		<li>1.2</li>
 	</supportedVersions>
 	
 	<packageId>Nandonalt.SnowyTrees</packageId>
@@ -21,7 +22,7 @@
 
     <description>Snowy Trees mod v0.21.2 - Makes plants snowy when they are covered by snow.
 	 
-&lt;color=red&gt;This mod uses Harmony, it comes with its own copy (v2.0.0.8), however it it recommended that you subscribe and activate the official Harmony mod by Brrainz so that you always have the latest version.&lt;/color&gt;
+&lt;color=red&gt;This mod uses Harmony, it comes with its own copy (v2.0.2), however it it recommended that you subscribe and activate the official Harmony mod by Brrainz so that you always have the latest version.&lt;/color&gt;
 
 Changelog:
 v21.2- Fixed 1.0 not working
