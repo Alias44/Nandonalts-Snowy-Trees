@@ -20,6 +20,11 @@ Enter the command git clone https://github.com/Alias44/B18-Snowy-Trees.git
 Note: You can get future changes by using the command get pull origin master
 
 ## Changes
+v1.22.5
+* 1.3 update
+* Harmony update (v2.1.0)
+* Regular berry plant disabled, pending a re-draw (core art changed)
+
 v1.22.4
 * 1.2 update
 * Harmony update (v2.0.2)
@@ -62,6 +67,7 @@ v0.19.0
 Unsure of licensing info, as Nandonalt didn't originally publish anything in that respect. All credit goes to Tejko for a17/Harmony updated.
  
 ## Thanks
+* to [Purple Gator Ninja](https://steamcommunity.com/profiles/76561198296940599/) for creating art (Brambles, Chokevine)
 * to [Nandonalt](https://ludeon.com/forums/index.php?action=profile;u=58544) for making the mod
 * to [Tejko](https://ludeon.com/forums/index.php?action=profile;u=67219) for updating it to a17/Harmony
 * to all the wonderful people on the Rimworld Discord

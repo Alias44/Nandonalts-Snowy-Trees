@@ -11,6 +11,7 @@
 		<li>1.0</li>
 		<li>1.1</li>
 		<li>1.2</li>
+		<li>1.3</li>
 	</supportedVersions>
 	
 	<packageId>Nandonalt.SnowyTrees</packageId>
@@ -22,18 +23,9 @@
 
     <description>Snowy Trees mod v0.21.2 - Makes plants snowy when they are covered by snow.
 	 
-&lt;color=red&gt;This mod uses Harmony, it comes with its own copy (v2.0.2), however it it recommended that you subscribe and activate the official Harmony mod by Brrainz so that you always have the latest version.&lt;/color&gt;
+&lt;color=red&gt;This mod uses Harmony, it comes with its own copy (v2.1.0), however it it recommended that you subscribe and activate the official Harmony mod by Brrainz so that you always have the latest version.&lt;/color&gt;
 
-Changelog:
-v21.2- Fixed 1.0 not working
-v21.1- v1.1 support, begin backwards mod support starting with v1.0
-v21.0- v1.0 support
-v20.1- Fixed typo in Maple tree definition causing errors
-v20.0- b19 support, swap definitions are now XML based.
-v19.2- Fixed bug that caused plants in the leafless state but have no leafless sprite to not swap the regular sprite when snowed on.
-v19.1- Fixed bug that caused errors when plants added by other mods got snowed on.
-v19.0- Refactored the tree swap code, not that it was an issue, but by making fewer string comparisons it runs faster now. Added snow graphics for the leafless versions of: Birch, Cypress, Maple, Oak, Poplar, and Willow Trees. Added snow graphics for Agave and Willow Tree.
-v18.0t- Removed HugsLib dependence.
+See steam change notes or readme file for changelog
 	</description>
 
 </ModMetaData>
