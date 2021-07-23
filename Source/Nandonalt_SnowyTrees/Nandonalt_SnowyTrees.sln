@@ -1,20 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2041
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nandonalt_SnowyTrees", "Nandonalt_SnowyTrees\Nandonalt_SnowyTrees.csproj", "{BB71D42F-4547-4987-ADD5-0B125530D1DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+		Release 1.2|Any CPU = Release 1.2|Any CPU
+		Release Current|Any CPU = Release Current|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{BB71D42F-4547-4987-ADD5-0B125530D1DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BB71D42F-4547-4987-ADD5-0B125530D1DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BB71D42F-4547-4987-ADD5-0B125530D1DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BB71D42F-4547-4987-ADD5-0B125530D1DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB71D42F-4547-4987-ADD5-0B125530D1DC}.Release 1.2|Any CPU.ActiveCfg = Release 1.2|Any CPU
+		{BB71D42F-4547-4987-ADD5-0B125530D1DC}.Release 1.2|Any CPU.Build.0 = Release 1.2|Any CPU
+		{BB71D42F-4547-4987-ADD5-0B125530D1DC}.Release Current|Any CPU.ActiveCfg = Release Current|Any CPU
+		{BB71D42F-4547-4987-ADD5-0B125530D1DC}.Release Current|Any CPU.Build.0 = Release Current|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

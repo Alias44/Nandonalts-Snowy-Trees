@@ -20,12 +20,19 @@
 		<li>brrainz.harmony</li>
 		<li>Ludeon.RimWorld</li>
 	</loadAfter>
+	
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+	</modDependencies>
 
-    <description>Snowy Trees mod v0.21.2 - Makes plants snowy when they are covered by snow.
-	 
-&lt;color=red&gt;This mod uses Harmony, it comes with its own copy (v2.1.0), however it it recommended that you subscribe and activate the official Harmony mod by Brrainz so that you always have the latest version.&lt;/color&gt;
+    <description>Makes plants snowy when they are covered by snow.
 
-See steam change notes or readme file for changelog
+See Steam change notes or readme file for changelog
 	</description>
 
 </ModMetaData>
