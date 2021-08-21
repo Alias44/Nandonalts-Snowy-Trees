@@ -20,11 +20,14 @@ Enter the command git clone https://github.com/Alias44/B18-Snowy-Trees.git
 Note: You can get future changes by using the command get pull origin master
 
 ## Changes
+v1.21.7
+* bugfix for new extracted (minifed) trees
+
 v1.21.6
 * Fixed 1.2 backwards compatibility
 * Restructured to use default multi-versioning system
 * Configured project files for simultaneous 1.2 and 1.3 builds
-* Removed packaged harmony (Harmony is now a hard dependency)
+* Removed packaged harmony (**Harmony is now a hard dependency**)
 
 v1.21.5
 * 1.3 update
