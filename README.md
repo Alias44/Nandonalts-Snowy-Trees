@@ -20,6 +20,10 @@ Enter the command git clone https://github.com/Alias44/B18-Snowy-Trees.git
 Note: You can get future changes by using the command get pull origin master
 
 ## Changes
+v1.21.8
+* 1.4 update
+* Added explicit assemblies instead of version version fall backs
+
 v1.21.7
 * bugfix for new extracted (minifed) trees
 
@@ -72,9 +76,6 @@ v0.19.0
 0.18.0t
 * Removed HugsLib dependence.
 
-## Licensing
-Unsure of licensing info, as Nandonalt didn't originally publish anything in that respect. All credit goes to Tejko for a17/Harmony updated.
- 
 ## Thanks
 * to [Purple Gator Ninja](https://steamcommunity.com/profiles/76561198296940599/) for creating art (Brambles, Chokevine)
 * to [Nandonalt](https://ludeon.com/forums/index.php?action=profile;u=58544) for making the mod
