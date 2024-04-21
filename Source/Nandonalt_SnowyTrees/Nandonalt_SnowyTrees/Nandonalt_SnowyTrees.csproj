@@ -14,7 +14,7 @@
     <Deterministic>true</Deterministic>
     <TargetFrameworkProfile />
     <RimWorldInstallDir>..\..\..\..\..\..\</RimWorldInstallDir>
-    <CurrentVer>1.4</CurrentVer>
+    <CurrentVer>1.5</CurrentVer>
   </PropertyGroup>
   <PropertyGroup>
     <ErrorReport>prompt</ErrorReport>
@@ -41,6 +41,11 @@
     <OutputPath>..\..\..\$(CurrentVer)\Assemblies\</OutputPath>
     <DefineConstants>TRACE;RELEASE_CURRENT</DefineConstants>
     <ManagedDir>$(RimWorldInstallDir)\RimWorld\RimWorldWin64_Data\Managed</ManagedDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release 1.4|AnyCPU'">
+    <OutputPath>..\..\..\1.4\Assemblies\</OutputPath>
+    <DefineConstants>TRACE;RELEASE_1_4</DefineConstants>
+    <ManagedDir>$(RimWorldInstallDir)\RimWorld - 1.4\RimWorldWin64_Data\Managed</ManagedDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release 1.3|AnyCPU'">
     <OutputPath>..\..\..\1.3\Assemblies\</OutputPath>

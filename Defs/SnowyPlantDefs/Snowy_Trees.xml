@@ -2,51 +2,51 @@
 <Defs>
 	<Nandonalt_SnowyTrees.SnowyPlantDef>
 		<defName>Plant_TreeBirch</defName>
-		<leaflessSnowyPath>Things/SnowyPlant/TreeBirch_Leafless_Snowy</leaflessSnowyPath>
-		<regularSnowyPath>Things/SnowyPlant/TreeBirch_Snowy</regularSnowyPath>
+		<leaflessSnowyPath>SnowyThings/Tree/Birch_Leafless</leaflessSnowyPath>
+		<regularSnowyPath>SnowyThings/Tree/Birch</regularSnowyPath>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 	
 	<Nandonalt_SnowyTrees.SnowyPlantDef>
 		<defName>Plant_TreeCecropia</defName>
-		<leaflessSnowyPath>Things/SnowyPlant/TreeCecropia_Leafless_Snowy</leaflessSnowyPath>
-		<regularSnowyPath>Things/SnowyPlant/TreeCecropia_Snowy</regularSnowyPath>
+		<leaflessSnowyPath>SnowyThings/Tree/Cecropia_Leafless</leaflessSnowyPath>
+		<regularSnowyPath>SnowyThings/Tree/Cecropia</regularSnowyPath>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 	
 	<Nandonalt_SnowyTrees.SnowyPlantDef>
 		<defName>Plant_TreeCypress</defName>
-		<leaflessSnowyPath>Things/SnowyPlant/TreeCypress_Leafless_Snowy</leaflessSnowyPath>
+		<leaflessSnowyPath>SnowyThings/Tree/Cypress_Leafless</leaflessSnowyPath>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 	
 	<Nandonalt_SnowyTrees.SnowyPlantDef>
 		<defName>Plant_TreeMaple</defName>
-		<leaflessSnowyPath>Things/SnowyPlant/TreeMaple_Leafless_Snowy</leaflessSnowyPath>
+		<leaflessSnowyPath>SnowyThings/Tree/Maple_Leafless</leaflessSnowyPath>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 	
 	<Nandonalt_SnowyTrees.SnowyPlantDef>
 		<defName>Plant_TreeOak</defName>
-		<leaflessSnowyPath>Things/SnowyPlant/TreeOak_Leafless_Snowy</leaflessSnowyPath>
-		<regularSnowyPath>Things/SnowyPlant/TreeOak_Snowy</regularSnowyPath>
+		<leaflessSnowyPath>SnowyThings/Tree/Oak_Leafless</leaflessSnowyPath>
+		<regularSnowyPath>SnowyThings/Tree/Oak</regularSnowyPath>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 	
 	<Nandonalt_SnowyTrees.SnowyPlantDef>
 		<defName>Plant_TreePine</defName>
-		<regularSnowyPath>Things/SnowyPlant/TreePine_Snowy</regularSnowyPath>
+		<regularSnowyPath>SnowyThings/Tree/Pine</regularSnowyPath>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 	
 	<Nandonalt_SnowyTrees.SnowyPlantDef>
 		<defName>Plant_TreePoplar</defName>
-		<leaflessSnowyPath>Things/SnowyPlant/TreePoplar_Leafless_Snowy</leaflessSnowyPath>
-		<regularSnowyPath>Things/SnowyPlant/TreePoplar_Snowy</regularSnowyPath>
+		<leaflessSnowyPath>SnowyThings/Tree/Poplar_Leafless</leaflessSnowyPath>
+		<regularSnowyPath>SnowyThings/Tree/Poplar</regularSnowyPath>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 	
 	<Nandonalt_SnowyTrees.SnowyPlantDef>
 		<defName>Plant_TreeTeak</defName>
-		<regularSnowyPath>Things/SnowyPlant/TreeTeak_Snowy</regularSnowyPath>
+		<regularSnowyPath>SnowyThings/Tree/Teak</regularSnowyPath>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 	
 	<Nandonalt_SnowyTrees.SnowyPlantDef>
 		<defName>Plant_TreeWillow</defName>
-		<leaflessSnowyPath>Things/SnowyPlant/TreeWillow_Leafless_Snowy</leaflessSnowyPath>
-		<regularSnowyPath>Things/SnowyPlant/TreeWillow_Snowy</regularSnowyPath>
+		<leaflessSnowyPath>SnowyThings/Tree/Willow_Leafless</leaflessSnowyPath>
+		<regularSnowyPath>SnowyThings/Tree/Willow</regularSnowyPath>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 </Defs>
