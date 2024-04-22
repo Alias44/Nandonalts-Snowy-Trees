@@ -14,11 +14,13 @@
 	
 	<Nandonalt_SnowyTrees.SnowyPlantDef>
 		<defName>Plant_TreeCypress</defName>
+		<regularSnowyPath>SnowyThings/Tree/Cypress</regularSnowyPath>
 		<leaflessSnowyPath>SnowyThings/Tree/Cypress_Leafless</leaflessSnowyPath>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 	
 	<Nandonalt_SnowyTrees.SnowyPlantDef>
 		<defName>Plant_TreeMaple</defName>
+		<regularSnowyPath>SnowyThings/Tree/Maple</regularSnowyPath>
 		<leaflessSnowyPath>SnowyThings/Tree/Maple_Leafless</leaflessSnowyPath>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 	

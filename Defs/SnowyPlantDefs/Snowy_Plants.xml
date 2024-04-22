@@ -8,7 +8,8 @@
 	<Nandonalt_SnowyTrees.SnowyPlantDef>
 		<defName>Plant_Berry</defName>
 		<immatureSnowyPath>SnowyThings/Plant/BerryPlant_Immature</immatureSnowyPath>
-		<!--regularSnowyPath>SnowyThings/Plant/BerryPlant</regularSnowyPath-->
+		<regularSnowyPath>SnowyThings/Plant/BerryPlant</regularSnowyPath>
+		<leaflessSnowyPath>SnowyThings/Plant/BerryPlant_Leafless</leaflessSnowyPath>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 	
 	
