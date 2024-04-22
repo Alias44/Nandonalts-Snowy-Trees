@@ -18,8 +18,6 @@ namespace Nandonalt_SnowyTrees
 			harmony.Patch(AccessTools.Method(typeof(Plant), "get_Graphic"), null, new HarmonyMethod(patchType, nameof(SnowyGraphic)));
 
 			harmony.PatchAll(Assembly.GetExecutingAssembly());
-
-			Log.Message("harmony hit");
 		}
 
 		[HarmonyPostfix]

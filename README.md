@@ -20,25 +20,28 @@ Enter the command git clone https://github.com/Alias44/B18-Snowy-Trees.git
 Note: You can get future changes by using the command get pull origin master
 
 ## Changes
-v1.21.8
+v0.22.9
+*1.5 update
+
+v0.21.8
 * 1.4 update
 * Added explicit assemblies instead of version version fall backs
 
-v1.21.7
+v0.21.7
 * bugfix for new extracted (minifed) trees
 
-v1.21.6
+v0.21.6
 * Fixed 1.2 backwards compatibility
 * Restructured to use default multi-versioning system
 * Configured project files for simultaneous 1.2 and 1.3 builds
 * Removed packaged harmony (**Harmony is now a hard dependency**)
 
-v1.21.5
+v0.21.5
 * 1.3 update
 * Harmony update (v2.1.0)
 * Regular berry plant disabled, pending a re-draw (core art changed)
 
-v1.21.4
+v0.21.4
 * 1.2 update
 * Harmony update (v2.0.2)
 * Added snow graphics for Brambles and Chokevine (both leafless and regular)
