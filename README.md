@@ -21,7 +21,13 @@ Note: You can get future changes by using the command get pull origin master
 
 ## Changes
 v0.22.9
-*1.5 update
+* 1.5 update
+* Commissioned new art from [Orange-Peel-Assassin](https://github.com/Orange-Peel-Assassin):
+	* Berry bush (immature/ regular/ leafless)
+	* Bush (regular/ leafless)
+	* Cypress (regular)
+	* Maple (regular/ leafless)
+	* Poplar (regular)
 
 v0.21.8
 * 1.4 update
@@ -79,7 +85,11 @@ v0.19.0
 0.18.0t
 * Removed HugsLib dependence.
 
+## License
+While I would hope that this mod constitutes as fair use and complies with the [RimWorld EULA](https://rimworldgame.com/eula/) and [Ludeon community](https://ludeon.com/forums/index.php?topic=40838.0) rules, it should be noted that the art is directly derived from the [Ludeon public art assets](https://ludeon.com/forums/index.php?topic=2325.0) of which Ludeon Studios is the copyright owner. 
+
 ## Thanks
+* to [Orange-Peel-Assassin](https://github.com/Orange-Peel-Assassin) for creating art
 * to [Purple Gator Ninja](https://steamcommunity.com/profiles/76561198296940599/) for creating art (Brambles, Chokevine)
 * to [Nandonalt](https://ludeon.com/forums/index.php?action=profile;u=58544) for making the mod
 * to [Tejko](https://ludeon.com/forums/index.php?action=profile;u=67219) for updating it to a17/Harmony
