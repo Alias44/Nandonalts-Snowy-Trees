@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>Snowy Trees</name>
-	<author>Alias</author>
 	<authors>
-		<li>Nandonalt</li>
+		<li>Alias</li>
 		<li>Tejko</li>
+		<li>Nandonalt</li>
 	</authors>
 	<packageId>Nandonalt.SnowyTrees</packageId>
 	<url>https://ludeon.com/forums/index.php?topic=29221.msg294779#msg294779</url>
