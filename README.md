@@ -20,6 +20,14 @@ Enter the command git clone https://github.com/Alias44/B18-Snowy-Trees.git
 Note: You can get future changes by using the command get pull origin master
 
 ## Changes
+v0.22.10
+* More commissioned art from Orange-Peel-Assassin
+	* Alocasia (regular/ leafless)
+	* Healroot (regular)
+	* Wild Healroot (regular)
+	* Cypress (leafless)
+	* Willow (regular/ leafless)
+
 v0.22.9
 * 1.5 update
 * Commissioned new art from [Orange-Peel-Assassin](https://github.com/Orange-Peel-Assassin):
