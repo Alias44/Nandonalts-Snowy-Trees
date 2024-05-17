@@ -39,6 +39,11 @@
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 	
 	<Nandonalt_SnowyTrees.SnowyPlantDef>
+		<defName>Plant_Clivia</defName>
+		<regularSnowyPath>SnowyThings/Plant/Clivia</regularSnowyPath>
+	</Nandonalt_SnowyTrees.SnowyPlantDef>
+	
+	<Nandonalt_SnowyTrees.SnowyPlantDef>
 		<defName>Plant_Healroot</defName>
 		<leaflessSnowyPath>SnowyThings/Plant/Healroot</leaflessSnowyPath>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
@@ -46,5 +51,10 @@
 	<Nandonalt_SnowyTrees.SnowyPlantDef>
 		<defName>Plant_HealrootWild</defName>
 		<leaflessSnowyPath>SnowyThings/Plant/Healroot</leaflessSnowyPath>
+	</Nandonalt_SnowyTrees.SnowyPlantDef>
+	
+	<Nandonalt_SnowyTrees.SnowyPlantDef>
+		<defName>Plant_Rafflesia</defName>
+		<regularSnowyPath>SnowyThings/Plant/Rafflesia</regularSnowyPath>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 </Defs>

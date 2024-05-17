@@ -23,8 +23,11 @@ Note: You can get future changes by using the command get pull origin master
 v0.22.10
 * More commissioned art from Orange-Peel-Assassin
 	* Alocasia (regular/ leafless)
+	* Clivia (regular)
 	* Healroot (regular)
 	* Wild Healroot (regular)
+	* Rafflesia (regular)
+	* Birch (regular/ leafless)
 	* Cypress (leafless)
 	* Willow (regular/ leafless)
 
