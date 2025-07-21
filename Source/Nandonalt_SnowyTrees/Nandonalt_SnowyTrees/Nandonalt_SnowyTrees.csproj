@@ -90,6 +90,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="PlantGraphicPatch.cs" />
+    <Compile Include="SnowyGraphic.cs" />
     <Compile Include="SnowyPlantDef.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

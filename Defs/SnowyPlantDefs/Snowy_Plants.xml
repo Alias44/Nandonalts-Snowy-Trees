@@ -1,60 +1,94 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<Nandonalt_SnowyTrees.SnowyPlantDef>
+	<Nandonalt_SnowyTrees.SnowyPlantDef Name="NCS_BasePlant" Abstract="True">
+		<baseGraphicPath>SnowyThings/Plant/</baseGraphicPath>
+	</Nandonalt_SnowyTrees.SnowyPlantDef>
+
+	<Nandonalt_SnowyTrees.SnowyPlantDef ParentName="NCS_BasePlant">
 		<defName>Plant_Agave</defName>
-		<regularSnowyPath>SnowyThings/Plant/Agave</regularSnowyPath>
+		<label>Agave</label>
+		<graphics>
+			<Regular/>
+		</graphics>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 	
-	<Nandonalt_SnowyTrees.SnowyPlantDef>
+	<Nandonalt_SnowyTrees.SnowyPlantDef ParentName="NCS_BasePlant">
 		<defName>Plant_Alocasia</defName>
-		<regularSnowyPath>SnowyThings/Plant/Alocasia</regularSnowyPath>
-		<leaflessSnowyPath>SnowyThings/Plant/Alocasia_Leafless</leaflessSnowyPath>
+		<label>Alocasia</label>
+		<graphics>
+			<Regular/>
+			<Leafless/>
+		</graphics>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 	
-	<Nandonalt_SnowyTrees.SnowyPlantDef>
+	<Nandonalt_SnowyTrees.SnowyPlantDef ParentName="NCS_BasePlant">
 		<defName>Plant_Berry</defName>
-		<immatureSnowyPath>SnowyThings/Plant/BerryPlant_Immature</immatureSnowyPath>
-		<regularSnowyPath>SnowyThings/Plant/BerryPlant</regularSnowyPath>
-		<leaflessSnowyPath>SnowyThings/Plant/BerryPlant_Leafless</leaflessSnowyPath>
+		<label>BerryPlant</label>
+		<graphics>
+			<Regular/>
+			<Immature/>
+			<Leafless/>
+		</graphics>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 	
 	
-	<Nandonalt_SnowyTrees.SnowyPlantDef>
+	<Nandonalt_SnowyTrees.SnowyPlantDef ParentName="NCS_BasePlant">
 		<defName>Plant_Brambles</defName>
-		<leaflessSnowyPath>SnowyThings/Plant/Brambles_Leafless</leaflessSnowyPath>
-		<regularSnowyPath>SnowyThings/Plant/Brambles</regularSnowyPath>
+		<label>Brambles</label>
+		<graphics>
+			<Regular/>
+			<Leafless/>
+		</graphics>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 	
 	
-	<Nandonalt_SnowyTrees.SnowyPlantDef>
+	<Nandonalt_SnowyTrees.SnowyPlantDef ParentName="NCS_BasePlant">
 		<defName>Plant_Bush</defName>
-		<leaflessSnowyPath>SnowyThings/Plant/Bush_Leafless</leaflessSnowyPath>
-		<regularSnowyPath>SnowyThings/Plant/Bush</regularSnowyPath>
+		<label>Bush</label>
+		<graphics>
+			<Regular/>
+			<Leafless/>
+		</graphics>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 	
-	<Nandonalt_SnowyTrees.SnowyPlantDef>
+	<Nandonalt_SnowyTrees.SnowyPlantDef ParentName="NCS_BasePlant">
 		<defName>Plant_Chokevine</defName>
-		<leaflessSnowyPath>SnowyThings/Plant/Chokevine_Leafless</leaflessSnowyPath>
-		<regularSnowyPath>SnowyThings/Plant/Chokevine</regularSnowyPath>
+		<label>Chokevine</label>
+		<graphics>
+			<Regular/>
+			<Leafless/>
+		</graphics>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 	
-	<Nandonalt_SnowyTrees.SnowyPlantDef>
+	<Nandonalt_SnowyTrees.SnowyPlantDef ParentName="NCS_BasePlant">
 		<defName>Plant_Clivia</defName>
-		<regularSnowyPath>SnowyThings/Plant/Clivia</regularSnowyPath>
+		<label>Clivia</label>
+		<graphics>
+			<Regular/>
+		</graphics>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 	
-	<Nandonalt_SnowyTrees.SnowyPlantDef>
+	<Nandonalt_SnowyTrees.SnowyPlantDef ParentName="NCS_BasePlant">
 		<defName>Plant_Healroot</defName>
-		<leaflessSnowyPath>SnowyThings/Plant/Healroot</leaflessSnowyPath>
+		<label>Healroot</label>
+		<graphics>
+			<Regular/>
+		</graphics>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 	
-	<Nandonalt_SnowyTrees.SnowyPlantDef>
+	<Nandonalt_SnowyTrees.SnowyPlantDef ParentName="NCS_BasePlant">
 		<defName>Plant_HealrootWild</defName>
-		<leaflessSnowyPath>SnowyThings/Plant/Healroot</leaflessSnowyPath>
+		<label>Healroot</label>
+		<graphics>
+			<Regular/>
+		</graphics>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 	
-	<Nandonalt_SnowyTrees.SnowyPlantDef>
+	<Nandonalt_SnowyTrees.SnowyPlantDef ParentName="NCS_BasePlant">
 		<defName>Plant_Rafflesia</defName>
-		<regularSnowyPath>SnowyThings/Plant/Rafflesia</regularSnowyPath>
+		<label>Rafflesia</label>
+		<graphics>
+			<Regular/>
+		</graphics>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 </Defs>

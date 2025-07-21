@@ -1,54 +1,84 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<Nandonalt_SnowyTrees.SnowyPlantDef>
+	<Nandonalt_SnowyTrees.SnowyPlantDef Name="NCS_BaseTree" Abstract="True">
+		<baseGraphicPath>SnowyThings/Tree/</baseGraphicPath>
+	</Nandonalt_SnowyTrees.SnowyPlantDef>
+
+	<Nandonalt_SnowyTrees.SnowyPlantDef ParentName="NCS_BaseTree">
 		<defName>Plant_TreeBirch</defName>
-		<leaflessSnowyPath>SnowyThings/Tree/Birch_Leafless</leaflessSnowyPath>
-		<regularSnowyPath>SnowyThings/Tree/Birch</regularSnowyPath>
+		<label>Birch</label>
+		<graphics>
+			<Regular/>
+			<Leafless/>
+		</graphics>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 	
-	<Nandonalt_SnowyTrees.SnowyPlantDef>
+	<Nandonalt_SnowyTrees.SnowyPlantDef ParentName="NCS_BaseTree">
 		<defName>Plant_TreeCecropia</defName>
-		<leaflessSnowyPath>SnowyThings/Tree/Cecropia_Leafless</leaflessSnowyPath>
-		<regularSnowyPath>SnowyThings/Tree/Cecropia</regularSnowyPath>
+		<label>Cecropia</label>
+		<graphics>
+			<Regular/>
+		</graphics>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 	
-	<Nandonalt_SnowyTrees.SnowyPlantDef>
+	<Nandonalt_SnowyTrees.SnowyPlantDef ParentName="NCS_BaseTree">
 		<defName>Plant_TreeCypress</defName>
-		<regularSnowyPath>SnowyThings/Tree/Cypress</regularSnowyPath>
-		<leaflessSnowyPath>SnowyThings/Tree/Cypress_Leafless</leaflessSnowyPath>
+		<label>Cypress</label>
+		<graphics>
+			<Regular/>
+			<Leafless/>
+		</graphics>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 	
-	<Nandonalt_SnowyTrees.SnowyPlantDef>
+	<Nandonalt_SnowyTrees.SnowyPlantDef ParentName="NCS_BaseTree">
 		<defName>Plant_TreeMaple</defName>
-		<regularSnowyPath>SnowyThings/Tree/Maple</regularSnowyPath>
-		<leaflessSnowyPath>SnowyThings/Tree/Maple_Leafless</leaflessSnowyPath>
+		<label>Maple</label>
+		<graphics>
+			<Regular/>
+			<Leafless/>
+		</graphics>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 	
-	<Nandonalt_SnowyTrees.SnowyPlantDef>
+	<Nandonalt_SnowyTrees.SnowyPlantDef ParentName="NCS_BaseTree">
 		<defName>Plant_TreeOak</defName>
-		<leaflessSnowyPath>SnowyThings/Tree/Oak_Leafless</leaflessSnowyPath>
-		<regularSnowyPath>SnowyThings/Tree/Oak</regularSnowyPath>
+		<label>Oak</label>
+		<graphics>
+			<Regular/>
+			<Leafless/>
+		</graphics>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 	
-	<Nandonalt_SnowyTrees.SnowyPlantDef>
+	<Nandonalt_SnowyTrees.SnowyPlantDef ParentName="NCS_BaseTree">
 		<defName>Plant_TreePine</defName>
-		<regularSnowyPath>SnowyThings/Tree/Pine</regularSnowyPath>
+		<label>Pine</label>
+		<graphics>
+			<Regular/>
+		</graphics>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 	
-	<Nandonalt_SnowyTrees.SnowyPlantDef>
+	<Nandonalt_SnowyTrees.SnowyPlantDef ParentName="NCS_BaseTree">
 		<defName>Plant_TreePoplar</defName>
-		<leaflessSnowyPath>SnowyThings/Tree/Poplar_Leafless</leaflessSnowyPath>
-		<regularSnowyPath>SnowyThings/Tree/Poplar</regularSnowyPath>
+		<label>Poplar</label>
+		<graphics>
+			<Regular/>
+			<Leafless/>
+		</graphics>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 	
-	<Nandonalt_SnowyTrees.SnowyPlantDef>
+	<Nandonalt_SnowyTrees.SnowyPlantDef ParentName="NCS_BaseTree">
 		<defName>Plant_TreeTeak</defName>
-		<regularSnowyPath>SnowyThings/Tree/Teak</regularSnowyPath>
+		<label>Teak</label>
+		<graphics>
+			<Regular/>
+		</graphics>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 	
-	<Nandonalt_SnowyTrees.SnowyPlantDef>
+	<Nandonalt_SnowyTrees.SnowyPlantDef ParentName="NCS_BaseTree">
 		<defName>Plant_TreeWillow</defName>
-		<leaflessSnowyPath>SnowyThings/Tree/Willow_Leafless</leaflessSnowyPath>
-		<regularSnowyPath>SnowyThings/Tree/Willow</regularSnowyPath>
+		<label>Willow</label>
+		<graphics>
+			<Regular/>
+			<Leafless/>
+		</graphics>
 	</Nandonalt_SnowyTrees.SnowyPlantDef>
 </Defs>
