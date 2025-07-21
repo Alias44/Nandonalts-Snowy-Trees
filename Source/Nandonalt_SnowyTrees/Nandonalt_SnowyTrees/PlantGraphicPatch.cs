@@ -1,7 +1,7 @@
-﻿using System;
-using System.Reflection;
-using HarmonyLib;
+﻿using HarmonyLib;
 using RimWorld;
+using System;
+using System.Reflection;
 using Verse;
 
 
@@ -27,39 +27,25 @@ public class HarmonyPatches
 		    __instance.Map.snowGrid.GetDepth(__instance.Position) >= 0.5f &&
 		    __instance.LifeStage != PlantLifeStage.Sowing)
 		{
-			string newPath = null;
 
 			SnowyPlantDef candidatePlant = DefDatabase<SnowyPlantDef>.GetNamed(__instance.def.defName, false);
 
 			if (candidatePlant != null)
 			{
 				// If the tree is currently leafless and a leafless graphic exists
-				if (__instance.LeaflessNow && __instance.def.plant.leaflessGraphic != null)
+				 if (candidatePlant.graphicDB.ContainsKey(PlantGraphic.Leafless) && __instance.LeaflessNow && (!__instance.sown || !__instance.HarvestableNow))
 				{
-					// (nested if prevents Jesus trees: leafless trees getting the wrong graphic because a leafless snowy texture doesn't exist):
-					if (candidatePlant.LeaflessSnowyPath != null)
-					{
-						newPath = candidatePlant.LeaflessSnowyPath;
-					}
+					__result = candidatePlant.LeaflessGraphic;
 				}
 				// else, if immature variant and supported:
-				else if (__result.path.ToLowerInvariant().Contains("immature")
-					&& (candidatePlant.ImmatureSnowyPath != null))
+				else if (candidatePlant.graphicDB.ContainsKey(PlantGraphic.Immature) && !__instance.HarvestableNow)
 				{
-					newPath = candidatePlant.ImmatureSnowyPath;
+					__result = candidatePlant.ImmatureGraphic;
 				}
 				// Otherwise we show the snowy default / mature variant if it is supported.
-				else if (candidatePlant.RegularSnowyPath != null)
+				else if (candidatePlant.graphicDB.ContainsKey(PlantGraphic.Regular))
 				{
-					newPath = candidatePlant.RegularSnowyPath;
-				}
-
-				//If the texture has something to replace
-				if (newPath != null)
-				{
-					var snowyGraphic = GraphicDatabase.Get<Graphic_Random>(newPath, __result.Shader, __result.drawSize, __result.Color, __result.ColorTwo, __result.data);
-
-					__result = snowyGraphic;
+					__result = candidatePlant.Graphic;
 				}
 			}
 		}
