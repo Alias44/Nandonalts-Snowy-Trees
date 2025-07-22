@@ -8,6 +8,8 @@ public enum PlantGraphic : byte
 	Regular = 0,
 	Immature,
 	Leafless,
+	LeaflessImmature,
+	PollutedGraphic
 }
 
 public class SnowyGraphic
@@ -23,6 +25,8 @@ public class SnowyGraphic
 		{
 			PlantGraphic.Leafless => "_Leafless",
 			PlantGraphic.Immature => "_Immature",
+			PlantGraphic.LeaflessImmature => "_LeaflessImmature",
+			PlantGraphic.PollutedGraphic => "_Polluted",
 
 			_ => "",
 		};

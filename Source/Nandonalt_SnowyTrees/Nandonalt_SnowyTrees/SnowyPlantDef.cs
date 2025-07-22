@@ -12,9 +12,8 @@ public class SnowyPlantDef : Def
 
 	public Dictionary<PlantGraphic, Graphic> graphicDB = [];
 
-	public Graphic Graphic => graphicDB.GetValueOrDefault(PlantGraphic.Regular, null);
-	public Graphic ImmatureGraphic => graphicDB.GetValueOrDefault(PlantGraphic.Immature, null);
-	public Graphic LeaflessGraphic => graphicDB.GetValueOrDefault(PlantGraphic.Leafless, null);
+	public bool HasPlantGraphic(PlantGraphic graphic) => graphicDB.ContainsKey(graphic);
+	public Graphic GetGraphic(PlantGraphic graphic) => graphicDB.GetValueOrDefault(graphic, null);
 
 	public override void PostLoad()
 	{

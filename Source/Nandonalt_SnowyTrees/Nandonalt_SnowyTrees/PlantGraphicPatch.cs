@@ -32,20 +32,30 @@ public class HarmonyPatches
 
 			if (candidatePlant != null)
 			{
-				// If the tree is currently leafless and a leafless graphic exists
-				 if (candidatePlant.graphicDB.ContainsKey(PlantGraphic.Leafless) && __instance.LeaflessNow && (!__instance.sown || !__instance.HarvestableNow))
+#if !(RELEASE_1_1 || RELEASE_1_2 || RELEASE_1_3)
+				if(candidatePlant.HasPlantGraphic(PlantGraphic.PollutedGraphic) && __instance.PositionHeld.IsPolluted(__instance.MapHeld)) {
+					__result = candidatePlant.GetGraphic(PlantGraphic.PollutedGraphic);
+				}
+				else
+#endif
+				if (candidatePlant.HasPlantGraphic(PlantGraphic.LeaflessImmature) && __instance.LeaflessNow && !__instance.HarvestableNow)
 				{
-					__result = candidatePlant.LeaflessGraphic;
+					__result = candidatePlant.GetGraphic(PlantGraphic.LeaflessImmature);
+				}
+				// If the tree is currently leafless and a leafless graphic exists
+				else if (candidatePlant.HasPlantGraphic(PlantGraphic.Leafless) && __instance.LeaflessNow && (!__instance.sown || !__instance.HarvestableNow))
+				{
+					__result = candidatePlant.GetGraphic(PlantGraphic.Leafless);
 				}
 				// else, if immature variant and supported:
-				else if (candidatePlant.graphicDB.ContainsKey(PlantGraphic.Immature) && !__instance.HarvestableNow)
+				else if (candidatePlant.HasPlantGraphic(PlantGraphic.Immature) && !__instance.HarvestableNow)
 				{
-					__result = candidatePlant.ImmatureGraphic;
+					__result = candidatePlant.GetGraphic(PlantGraphic.Immature);
 				}
 				// Otherwise we show the snowy default / mature variant if it is supported.
-				else if (candidatePlant.graphicDB.ContainsKey(PlantGraphic.Regular))
+				else if (candidatePlant.HasPlantGraphic(PlantGraphic.Regular))
 				{
-					__result = candidatePlant.Graphic;
+					__result = candidatePlant.GetGraphic(PlantGraphic.Regular);
 				}
 			}
 		}
