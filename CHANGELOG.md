@@ -1,3 +1,9 @@
+# v0.23.0
+- 1.6 update
+- Graphics are now generated on game load instead of on the fly, which should be more performant.
+- Changed data structure to make snowy plant definitions less repetitive. 
+- Add code to handle other plants states (like polluted).
+	
 # v0.22.10
 - More commissioned art from Orange-Peel-Assassin
 	- Alocasia (regular/ leafless)
